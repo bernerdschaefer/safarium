@@ -3,7 +3,7 @@ var $$ = function () { return document.querySelectorAll.apply(document, argument
 var safarium = {};
 
 safarium.keydown = function(e) {
-  if ( e.keyCode == 9 ) {
+  if ( e.keyCode == 9 && !e.altKey ) {
     safarium.tab(e);
   }
   else if ( e.keyCode == 13 && e.metaKey ) {
