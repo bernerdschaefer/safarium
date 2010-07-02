@@ -1,7 +1,7 @@
 {
   "name": "Safarium",
   "version": "1.0",
-  "description": "Safarium adds some of Safari's expected behaviors to the page."
+  "description": "Safarium adds some of Safari's expected behaviors to the page.",
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
