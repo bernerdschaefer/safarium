@@ -1,0 +1,14 @@
+Safarium
+========
+
+Safarium is a simple Chrome extension for adding some of Safari's behaviors to
+the page. Here's a summary of the features it adds:
+
+<TAB>
+  Instead of cycling through all links and form elements on the page, tab will
+  cycle only through form elements. Includes <SHIFT-TAB>. Use <OPTION-TAB> to
+  use Chrome's built in <TAB> behavior.
+
+<COMMAND-ENTER>
+  Submits a form into a new background tab. When that cannot be done, for whatever
+  reason, it will fall back to the default form submission behavior.

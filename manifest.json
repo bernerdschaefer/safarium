@@ -1,0 +1,11 @@
+{
+  "name": "Safarium",
+  "version": "1.0",
+  "description": "Not shitty tabs",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["safarium.js"]
+    }
+  ]
+}
